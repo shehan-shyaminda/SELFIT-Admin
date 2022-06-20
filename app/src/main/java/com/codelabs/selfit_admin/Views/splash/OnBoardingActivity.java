@@ -1,4 +1,4 @@
-package com.codelabs.selfit_admin;
+package com.codelabs.selfit_admin.Views.splash;
 
 import androidx.viewpager.widget.ViewPager;
 
@@ -9,6 +9,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.codelabs.selfit_admin.Views.BaseActivity;
+import com.codelabs.selfit_admin.Views.authentication.RegisterActivity;
+import com.codelabs.selfit_admin.adapters.OnboardSliderAdapter;
+import com.codelabs.selfit_admin.R;
+import com.codelabs.selfit_admin.helpers.SharedPreferencesManager;
 
 public class OnBoardingActivity extends BaseActivity {
 
@@ -42,7 +48,7 @@ public class OnBoardingActivity extends BaseActivity {
             @Override
             public void onClick(View view) {
                 sharedPreferencesManager.savePreferences(SharedPreferencesManager.IS_DONE_TUTORIAL, true);
-                startActivity(new Intent(OnBoardingActivity.this, MainActivity.class));
+                startActivity(new Intent(OnBoardingActivity.this, RegisterActivity.class));
                 finishAffinity();
             }
         });

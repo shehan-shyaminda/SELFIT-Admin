@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.thomhurst:ExpandableHintText:1.0.7@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c93d2e232f868bbbc8f1e42dbc45680a/transformed/jetified-ExpandableHintText-1.0.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c93d2e232f868bbbc8f1e42dbc45680a/transformed/jetified-ExpandableHintText-1.0.7/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c93d2e232f868bbbc8f1e42dbc45680a/transformed/jetified-ExpandableHintText-1.0.7/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.thomhurst/ExpandableHintText/1.0.7/c575e62271c028a4c8dcfbae201f7264d27a7c0b/ExpandableHintText-1.0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

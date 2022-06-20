@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "195141327826",
+    "firebase_url": "https://selfit-code-labs-default-rtdb.firebaseio.com",
+    "project_id": "selfit-code-labs",
+    "storage_bucket": "selfit-code-labs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195141327826:android:e95f7a6b2a831b98e7060b",
+        "android_client_info": {
+          "package_name": "com.codelabs.selfit_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195141327826-ac8v9pa75ialmh0m0paef8k50qqqdtjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcISt0OY-Hb-HgUuOwH0l4ruhZBmzUl5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195141327826-ac8v9pa75ialmh0m0paef8k50qqqdtjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

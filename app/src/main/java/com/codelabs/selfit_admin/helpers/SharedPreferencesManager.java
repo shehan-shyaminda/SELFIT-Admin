@@ -1,4 +1,4 @@
-package com.codelabs.selfit_admin;
+package com.codelabs.selfit_admin.helpers;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -6,11 +6,10 @@ import android.content.SharedPreferences;
 import com.google.gson.Gson;
 
 public class SharedPreferencesManager {
-    public static final String PREF_FILE = "POCKET_UNI_PREF_FILE";
+    public static final String PREF_FILE = "SELFIT_PREF_FILE";
     public static final String IS_DONE_TUTORIAL = "IS_DONE_TUTORIAL";
-    public static final String USER_DETAILS = "POCKET_UNI_PREF_FILE_USER";
-    public static final String USER_ID = "POCKET_UNI_PREF_FILE_USER_ID";
-    public static final String USER_LOGGED_IN = "POCKET_UNI_PREF_FILE_LOGGED_IN";
+    public static final String USER_DETAILS = "SELFIT_PREF_FILE_USER";
+    public static final String USER_LOGGED_IN = "SELFIT_PREF_FILE_LOGGED_IN";
 
     public static SharedPreferences sharedPreferences;
     public static Gson gson;

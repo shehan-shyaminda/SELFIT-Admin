@@ -1,6 +1,8 @@
-package com.codelabs.selfit_admin;
+package com.codelabs.selfit_admin.Views;
 
 import android.os.Bundle;
+
+import com.codelabs.selfit_admin.R;
 
 public class MainActivity extends BaseActivity {
 

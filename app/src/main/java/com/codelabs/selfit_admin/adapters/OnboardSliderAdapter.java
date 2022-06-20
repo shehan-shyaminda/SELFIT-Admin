@@ -1,4 +1,4 @@
-package com.codelabs.selfit_admin;
+package com.codelabs.selfit_admin.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,6 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewpager.widget.PagerAdapter;
+
+import com.codelabs.selfit_admin.R;
 
 public class OnboardSliderAdapter extends PagerAdapter {
     private Context context;
