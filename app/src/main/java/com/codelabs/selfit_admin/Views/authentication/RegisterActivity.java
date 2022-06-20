@@ -74,12 +74,15 @@ public class RegisterActivity extends BaseActivity {
                 customProgressDialog.createProgress();
                 if (txtEmail.getText().toString().isEmpty() ||txtPassword.getText().toString().isEmpty() ||txtConPassword.getText().toString().isEmpty()){
                     Log.e(TAG, "onClick: Field Empty");
+                    customProgressDialog.dismissProgress();
                     new CustomAlertDialog().negativeDismissAlert(RegisterActivity.this, "Oops!", "Please fill out all fields!", CFAlertDialog.CFAlertStyle.ALERT);
                 }else if (!Patterns.EMAIL_ADDRESS.matcher(txtEmail.getText().toString().trim()).matches()){
                     Log.e(TAG, "onClick: Invalid Email");
+                    customProgressDialog.dismissProgress();
                     new CustomAlertDialog().negativeDismissAlert(RegisterActivity.this, "Oops!", "Invalid Email Address!", CFAlertDialog.CFAlertStyle.ALERT);
                 }else if (!txtPassword.getText().toString().matches(txtConPassword.getText().toString())){
                     Log.e(TAG, "onClick: Not matching passwords");
+                    customProgressDialog.dismissProgress();
                     new CustomAlertDialog().negativeDismissAlert(RegisterActivity.this, "Oops!", "Passwords doesn't match!", CFAlertDialog.CFAlertStyle.ALERT);
                 }else{
                     db.collection("users").document(txtEmail.getText().toString().trim().toLowerCase()).get()
