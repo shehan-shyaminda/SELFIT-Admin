@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.codelabs.selfit_admin">
+    package="com.codelabs.selfit_admin" >
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SELFIT">
+        android:theme="@style/Theme.SELFIT" >
+        <activity
+            android:name=".Views.TrainersActivity"
+            android:exported="false" />
         <activity
             android:name=".Views.authentication.LoginActivity"
             android:exported="false" />
@@ -19,8 +22,8 @@
             android:name=".Views.authentication.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name="com.codelabs.selfit_admin.Views.splash.SplashActivity"
-            android:exported="true">
+            android:name=".Views.splash.SplashActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,10 +31,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.codelabs.selfit_admin.Views.splash.OnBoardingActivity"
+            android:name=".Views.splash.OnBoardingActivity"
             android:exported="false" />
         <activity
-            android:name="com.codelabs.selfit_admin.Views.MainActivity"
+            android:name=".Views.AdminsActivity"
             android:exported="false" />
     </application>
 

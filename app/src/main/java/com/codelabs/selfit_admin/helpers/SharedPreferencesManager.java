@@ -10,6 +10,9 @@ public class SharedPreferencesManager {
     public static final String IS_DONE_TUTORIAL = "IS_DONE_TUTORIAL";
     public static final String USER_DETAILS = "SELFIT_PREF_FILE_USER";
     public static final String USER_LOGGED_IN = "SELFIT_PREF_FILE_LOGGED_IN";
+    public static final String IS_ADMIN = "SELFIT_PREF_FILE_IS_ADMIN";
+    public static final String TRAINER_ID = "SELFIT_PREF_FILE_TRAINER_ID";
+    public static final String TRAINER_ADMINS_ID = "SELFIT_PREF_FILE_TRAINER_ADMINS_ID";
 
     public static SharedPreferences sharedPreferences;
     public static Gson gson;

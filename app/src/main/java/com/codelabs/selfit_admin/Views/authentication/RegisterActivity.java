@@ -85,18 +85,25 @@ public class RegisterActivity extends BaseActivity {
                     customProgressDialog.dismissProgress();
                     new CustomAlertDialog().negativeDismissAlert(RegisterActivity.this, "Oops!", "Passwords doesn't match!", CFAlertDialog.CFAlertStyle.ALERT);
                 }else{
-                    db.collection("users").document(txtEmail.getText().toString().trim().toLowerCase()).get()
+                    db.collection("admins").document(txtEmail.getText().toString().trim().toLowerCase()).get()
                             .addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
                                 @Override
                                 public void onSuccess(DocumentSnapshot documentSnapshot) {
-                                    customProgressDialog.dismissProgress();
-                                    new CustomAlertDialog().negativeDismissAlert(RegisterActivity.this, "Oops!", "This Email has already registered!", CFAlertDialog.CFAlertStyle.ALERT);
+                                    if (documentSnapshot.exists()){
+                                        Log.e(TAG, "onSuccess: " + txtEmail.getText().toString().trim().toLowerCase() );
+                                        customProgressDialog.dismissProgress();
+                                        new CustomAlertDialog().negativeDismissAlert(RegisterActivity.this, "Oops!", "This Email has already registered!", CFAlertDialog.CFAlertStyle.ALERT);
+                                    }else{
+                                        setData();
+                                    }
                                 }
                             })
                             .addOnFailureListener(new OnFailureListener() {
                                 @Override
                                 public void onFailure(@NonNull Exception e) {
-                                    setData();
+                                    customProgressDialog.dismissProgress();
+                                    new CustomAlertDialog().negativeDismissAlert(RegisterActivity.this, "Oops!", "Something went wrong\nPlease try again later!", CFAlertDialog.CFAlertStyle.ALERT);
+                                    Log.e(TAG, e.getLocalizedMessage());
                                 }
                             });
                 }
@@ -105,7 +112,7 @@ public class RegisterActivity extends BaseActivity {
     }
 
     private void setData(){
-        db.collection("users").document(txtEmail.getText().toString().trim().toLowerCase())
+        db.collection("admins").document(txtEmail.getText().toString().trim().toLowerCase())
                 .set(mapData(txtEmail.getText().toString().toLowerCase(), txtPassword.getText().toString()))
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
@@ -131,15 +138,11 @@ public class RegisterActivity extends BaseActivity {
 
     private Map mapData(String email, String password) {
         Map<String, Object> map = new HashMap<>();
-        map.put("userEmail", email);
-        map.put("userName", "");
-        map.put("userPassword", password);
-        map.put("userType", "A");
-        map.put("userGender", "");
-        map.put("userHeight", "");
-        map.put("userWeight", "");
-        map.put("userGoal", "");
-        map.put("userLevel", "");
+        map.put("adminEmail", email);
+        map.put("adminName", "");
+        map.put("adminPassword", password);
+        map.put("isAdmin", true);
+        map.put("trainerAdminsID", "");
 
         return map;
     }
