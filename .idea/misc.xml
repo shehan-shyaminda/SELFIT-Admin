@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/bottom_nav_background.xml" value="0.341" />
+        <entry key="app/src/main/res/drawable/bottom_nav_selector.xml" value="0.341" />
         <entry key="app/src/main/res/drawable/flat_button_background.xml" value="0.224" />
         <entry key="app/src/main/res/drawable/flat_empty_button_background.xml" value="0.341" />
         <entry key="app/src/main/res/drawable/rounded_button_background.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_admins.xml" value="0.4433135986328125" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.33133817870884996" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.41900939941406257" />
         <entry key="app/src/main/res/layout/activity_on_boarding.xml" value="0.4036458333333333" />
@@ -16,6 +19,7 @@
         <entry key="app/src/main/res/layout/onboard_row_layout.xml" value="0.4277689615885417" />
         <entry key="app/src/main/res/layout/slide_layout.xml" value="0.40260416666666665" />
         <entry key="app/src/main/res/layout/test.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/menu/nav_bar_admins.xml" value="0.3304831124412142" />
       </map>
     </option>
   </component>
