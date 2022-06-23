@@ -11,6 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.codelabs.selfit_admin.Views.BaseActivity;
+import com.codelabs.selfit_admin.Views.authentication.LoginActivity;
 import com.codelabs.selfit_admin.Views.authentication.RegisterActivity;
 import com.codelabs.selfit_admin.adapters.OnboardSliderAdapter;
 import com.codelabs.selfit_admin.R;
@@ -48,7 +49,7 @@ public class OnBoardingActivity extends BaseActivity {
             @Override
             public void onClick(View view) {
                 sharedPreferencesManager.savePreferences(SharedPreferencesManager.IS_DONE_TUTORIAL, true);
-                startActivity(new Intent(OnBoardingActivity.this, RegisterActivity.class));
+                startActivity(new Intent(OnBoardingActivity.this, LoginActivity.class));
                 finishAffinity();
             }
         });

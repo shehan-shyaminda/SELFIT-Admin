@@ -5,6 +5,7 @@ import static androidx.constraintlayout.helper.widget.MotionEffect.TAG;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -33,6 +34,8 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.tomlonghurst.expandablehinttext.ExpandableEditText;
 import com.tomlonghurst.expandablehinttext.ExpandableHintText;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Pattern;
@@ -136,6 +139,7 @@ public class RegisterActivity extends BaseActivity {
                 });
     }
 
+    @SuppressLint("SimpleDateFormat")
     private Map mapData(String email, String password) {
         Map<String, Object> map = new HashMap<>();
         map.put("adminEmail", email);
@@ -143,6 +147,7 @@ public class RegisterActivity extends BaseActivity {
         map.put("adminPassword", password);
         map.put("isAdmin", true);
         map.put("trainerAdminsID", "");
+        map.put("regDate", new SimpleDateFormat("dd/MM/yyyy").format(new Date()));
 
         return map;
     }

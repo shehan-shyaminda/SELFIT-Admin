@@ -6,7 +6,7 @@
         android:title="Home">
     </item>
     <item
-        android:id="@+id/notices"
+        android:id="@+id/payments"
         android:icon="@drawable/ic_payments"
         android:title="Payments">
     </item>

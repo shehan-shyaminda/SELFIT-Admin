@@ -7,6 +7,7 @@ import com.crowdfire.cfalertdialog.CFAlertDialog;
 
 public class CustomAlertDialog {
     CFAlertDialog.Builder cfAlertDialog;
+    public Boolean bool = false;
 
     public void positiveDismissAlert(Context context, String title, String description, CFAlertDialog.CFAlertStyle style){
         cfAlertDialog = new CFAlertDialog.Builder(context);

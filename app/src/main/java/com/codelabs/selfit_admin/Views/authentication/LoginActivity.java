@@ -68,7 +68,6 @@ public class LoginActivity extends BaseActivity {
                                 public void onSuccess(DocumentSnapshot documentSnapshot) {
                                     customProgressDialog.dismissProgress();
                                     if (documentSnapshot.exists() && documentSnapshot.get("adminPassword").toString().equals(txtPassword.getText().toString().trim())){
-                                        customProgressDialog.dismissProgress();
                                         clearFields();
                                         savePreferences(Boolean.parseBoolean(documentSnapshot.get("isAdmin").toString()), documentSnapshot.get("trainerAdminsID").toString(), txtEmail.getText().toString().trim().toLowerCase());
                                         if (Boolean.parseBoolean(documentSnapshot.get("isAdmin").toString())){
@@ -79,7 +78,6 @@ public class LoginActivity extends BaseActivity {
                                         Animatoo.animateSlideLeft(LoginActivity.this);
                                         finishAffinity();
                                     }else{
-                                        customProgressDialog.dismissProgress();
                                         new CustomAlertDialog().negativeDismissAlert(LoginActivity.this, "Oops!", "Email or Password incorrect!", CFAlertDialog.CFAlertStyle.ALERT);
                                     }
                                 }

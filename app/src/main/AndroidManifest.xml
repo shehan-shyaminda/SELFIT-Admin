@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.codelabs.selfit_admin" >
+    package="com.codelabs.selfit_admin">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,7 +11,37 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SELFIT" >
+        android:theme="@style/Theme.SELFIT">
+        <activity
+            android:name=".Views.subviews.EditAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Views.subviews.PrivacyPolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Views.subviews.AddPaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Views.subviews.SuccessEmailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Views.subviews.RemoveTrainerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Views.subviews.EditTrainerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Views.subviews.AddTrainerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Views.subviews.EditUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Views.subviews.RemoveUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Views.subviews.AddUserActivity"
+            android:exported="false" />
         <activity
             android:name=".Views.TrainersActivity"
             android:exported="false" />
@@ -23,7 +53,7 @@
             android:exported="false" />
         <activity
             android:name=".Views.splash.SplashActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
