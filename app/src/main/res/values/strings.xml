@@ -4,6 +4,11 @@
     <string-array name="sample_array">
         <item>Loading...</item>
     </string-array>
+    <string-array name="meal_units">
+        <item>Milligram</item>
+        <item>Milliliter</item>
+        <item>Cup</item>
+    </string-array>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 

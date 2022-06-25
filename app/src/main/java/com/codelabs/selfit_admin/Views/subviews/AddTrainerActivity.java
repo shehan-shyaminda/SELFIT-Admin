@@ -192,6 +192,7 @@ public class AddTrainerActivity extends AppCompatActivity {
         Map<String, Object> map = new HashMap<>();
         map.put("adminEmail", trainerEmail);
         map.put("isAdmin", false);
+        map.put("adminName", "");
         map.put("adminPassword", password);
         map.put("regDate", new SimpleDateFormat("dd/MM/yyyy").format(new Date()));
         map.put("trainerAdminsID", adminsID);

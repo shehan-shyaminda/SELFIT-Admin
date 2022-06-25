@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.sephiroth74:android-target-tooltip:v2.0.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/dbc1b84b3839c7e0c90a8cd5525a930b/transformed/jetified-android-target-tooltip-v2.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dbc1b84b3839c7e0c90a8cd5525a930b/transformed/jetified-android-target-tooltip-v2.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dbc1b84b3839c7e0c90a8cd5525a930b/transformed/jetified-android-target-tooltip-v2.0.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

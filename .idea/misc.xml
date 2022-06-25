@@ -7,18 +7,28 @@
         <entry key="app/src/main/res/drawable/bottom_nav_background.xml" value="0.341" />
         <entry key="app/src/main/res/drawable/bottom_nav_selector.xml" value="0.341" />
         <entry key="app/src/main/res/drawable/flat_button_background.xml" value="0.224" />
-        <entry key="app/src/main/res/drawable/flat_empty_button_background.xml" value="0.341" />
+        <entry key="app/src/main/res/drawable/flat_empty_button_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/headder_background.xml" value="0.1635" />
+        <entry key="app/src/main/res/drawable/ic_payments.xml" value="0.2105" />
         <entry key="app/src/main/res/drawable/ic_profile_layout.xml" value="0.341" />
         <entry key="app/src/main/res/drawable/rounded_button_background.xml" value="0.225" />
+        <entry key="app/src/main/res/drawable/row_physics.xml" value="0.339" />
+        <entry key="app/src/main/res/layout/activity_add_exercise.xml" value="0.33133817870884996" />
+        <entry key="app/src/main/res/layout/activity_add_meal.xml" value="0.2543822146216332" />
         <entry key="app/src/main/res/layout/activity_add_payment.xml" value="0.3189397178281317" />
         <entry key="app/src/main/res/layout/activity_add_trainer.xml" value="0.2843627929687501" />
         <entry key="app/src/main/res/layout/activity_add_user.xml" value="0.3189397178281317" />
         <entry key="app/src/main/res/layout/activity_admins.xml" value="0.3385772705078125" />
+        <entry key="app/src/main/res/layout/activity_assign_exercise.xml" value="0.17870884993587002" />
+        <entry key="app/src/main/res/layout/activity_assign_meal.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_edit_admin.xml" value="0.30739632321504917" />
+        <entry key="app/src/main/res/layout/activity_edit_exercise.xml" value="0.31979478409576745" />
+        <entry key="app/src/main/res/layout/activity_edit_meal.xml" value="0.33133817870884996" />
         <entry key="app/src/main/res/layout/activity_edit_trainer.xml" value="0.16673792218896966" />
         <entry key="app/src/main/res/layout/activity_edit_user.xml" value="0.19077148437500002" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.33133817870884996" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.41900939941406257" />
+        <entry key="app/src/main/res/layout/activity_manage_users.xml" value="0.385896180215475" />
         <entry key="app/src/main/res/layout/activity_on_boarding.xml" value="0.4036458333333333" />
         <entry key="app/src/main/res/layout/activity_onboarding.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_privacy_policy.xml" value="0.30739632321504917" />
@@ -28,17 +38,27 @@
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.38958333333333334" />
         <entry key="app/src/main/res/layout/activity_success_email.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_trainers.xml" value="0.3189397178281317" />
+        <entry key="app/src/main/res/layout/activity_trainers_salary.xml" value="0.3189397178281317" />
+        <entry key="app/src/main/res/layout/activity_view_photo.xml" value="0.1671654553227875" />
+        <entry key="app/src/main/res/layout/activity_view_physic.xml" value="0.33133817870884996" />
         <entry key="app/src/main/res/layout/fragment_add_trainer.xml" value="0.16673792218896966" />
         <entry key="app/src/main/res/layout/fragment_admin_home.xml" value="0.3189397178281317" />
         <entry key="app/src/main/res/layout/fragment_admin_payment.xml" value="0.33" />
-        <entry key="app/src/main/res/layout/fragment_admin_profile.xml" value="0.4800112915039063" />
+        <entry key="app/src/main/res/layout/fragment_admin_profile.xml" value="0.3472840605520926" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.5" />
         <entry key="app/src/main/res/layout/fragment_payment.xml" value="0.33133817870884996" />
+        <entry key="app/src/main/res/layout/fragment_traiers_users.xml" value="0.22120842603028096" />
+        <entry key="app/src/main/res/layout/fragment_trainers_home.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_trainers_profile.xml" value="0.170013427734375" />
         <entry key="app/src/main/res/layout/onboard_row_layout.xml" value="0.4277689615885417" />
         <entry key="app/src/main/res/layout/row_history.xml" value="0.3640609741210938" />
+        <entry key="app/src/main/res/layout/row_physics.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/row_sers.xml" value="0.12654980761008977" />
+        <entry key="app/src/main/res/layout/row_users.xml" value="0.5018885527272772" />
         <entry key="app/src/main/res/layout/slide_layout.xml" value="0.40260416666666665" />
         <entry key="app/src/main/res/layout/test.xml" value="0.4036458333333333" />
         <entry key="app/src/main/res/menu/nav_bar_admins.xml" value="0.3304831124412142" />
+        <entry key="app/src/main/res/menu/nav_bar_trainers.xml" value="0.16673792218896966" />
       </map>
     </option>
   </component>

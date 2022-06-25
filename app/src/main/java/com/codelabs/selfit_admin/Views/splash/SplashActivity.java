@@ -12,6 +12,7 @@ import android.view.animation.AlphaAnimation;
 import com.codelabs.selfit_admin.R;
 import com.codelabs.selfit_admin.Views.BaseActivity;
 import com.codelabs.selfit_admin.Views.AdminsActivity;
+import com.codelabs.selfit_admin.Views.TrainersActivity;
 import com.codelabs.selfit_admin.Views.authentication.LoginActivity;
 import com.codelabs.selfit_admin.helpers.SharedPreferencesManager;
 
@@ -42,7 +43,11 @@ public class SplashActivity extends BaseActivity {
 
                     if(sharedPreferencesManager.getBooleanPreferences(SharedPreferencesManager.IS_DONE_TUTORIAL)) {
                         if(sharedPreferencesManager.getBooleanPreferences(SharedPreferencesManager.USER_LOGGED_IN)) {
-                            startActivity(new Intent(SplashActivity.this, AdminsActivity.class));
+                            if(sharedPreferencesManager.getBooleanPreferences(SharedPreferencesManager.IS_ADMIN)){
+                                startActivity(new Intent(SplashActivity.this, AdminsActivity.class));
+                            }else{
+                                startActivity(new Intent(SplashActivity.this, TrainersActivity.class));
+                            }
                         }else{
                             startActivity(new Intent(SplashActivity.this, LoginActivity.class));
                         }

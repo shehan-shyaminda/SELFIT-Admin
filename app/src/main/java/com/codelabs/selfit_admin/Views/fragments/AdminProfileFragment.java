@@ -23,6 +23,7 @@ import com.codelabs.selfit_admin.Views.authentication.RegisterActivity;
 import com.codelabs.selfit_admin.Views.subviews.EditAdminActivity;
 import com.codelabs.selfit_admin.Views.subviews.EditUserActivity;
 import com.codelabs.selfit_admin.Views.subviews.PrivacyPolicyActivity;
+import com.codelabs.selfit_admin.Views.subviews.TrainersSalaryActivity;
 import com.codelabs.selfit_admin.helpers.CustomAlertDialog;
 import com.codelabs.selfit_admin.helpers.CustomProgressDialog;
 import com.codelabs.selfit_admin.helpers.SharedPreferencesManager;
@@ -71,7 +72,7 @@ public class AdminProfileFragment extends Fragment {
                 customProgressDialog.dismissProgress();
 
                 startActivity(new Intent(getActivity(), LoginActivity.class));
-                Animatoo.animateSlideLeft(getActivity());
+                Animatoo.animateSlideRight(getActivity());
                 getActivity().finishAffinity();
             }
         });
@@ -87,7 +88,7 @@ public class AdminProfileFragment extends Fragment {
         consPrivacyPolicy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getActivity(), PrivacyPolicyActivity.class));
+                startActivity(new Intent(getActivity(), TrainersSalaryActivity.class));
                 Animatoo.animateSlideLeft(getActivity());
             }
         });
