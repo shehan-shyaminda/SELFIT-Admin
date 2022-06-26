@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SELFIT">
         <activity
+            android:name=".Views.subviews.AdminViewPaymentsActivity"
+            android:exported="false" />
+        <activity
             android:name=".Views.subviews.ViewPhotoActivity"
             android:exported="false" />
         <activity

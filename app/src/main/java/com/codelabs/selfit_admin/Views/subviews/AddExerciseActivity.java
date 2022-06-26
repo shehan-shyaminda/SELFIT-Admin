@@ -163,7 +163,7 @@ public class AddExerciseActivity extends AppCompatActivity {
     private Map mapData(String name, String calories, String url) {
         Map<String, Object> map = new HashMap<>();
         map.put("exName", name);
-        map.put("exCalories", calories + " Cal");
+        map.put("exCalories", calories + " Cals");
         map.put("exVideoPath", url);
 
         return map;

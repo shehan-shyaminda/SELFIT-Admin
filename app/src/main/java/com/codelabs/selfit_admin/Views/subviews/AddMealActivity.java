@@ -92,7 +92,7 @@ public class AddMealActivity extends AppCompatActivity {
 
     private Map mapData(String name, String calories, String unit) {
         Map<String, Object> map = new HashMap<>();
-        map.put("mealCalories", calories + "Cals");
+        map.put("mealCalories", calories + " Cals");
         map.put("mealName", name);
         map.put("mealUnit", unit);
 

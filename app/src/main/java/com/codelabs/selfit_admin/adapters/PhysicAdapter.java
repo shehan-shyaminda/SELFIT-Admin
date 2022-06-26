@@ -21,7 +21,7 @@ public class PhysicAdapter  extends ArrayAdapter<PhysicModel> {
     Activity mActivity;
 
     public PhysicAdapter(Activity activity, ArrayList<PhysicModel> physicList) {
-        super(activity, R.layout.row_users, physicList);
+        super(activity, R.layout.row_physics, physicList);
         this.mActivity = activity;
         this.physicList = physicList;
     }

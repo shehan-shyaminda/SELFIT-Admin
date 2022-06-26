@@ -18,6 +18,7 @@
         <entry key="app/src/main/res/layout/activity_add_payment.xml" value="0.3189397178281317" />
         <entry key="app/src/main/res/layout/activity_add_trainer.xml" value="0.2843627929687501" />
         <entry key="app/src/main/res/layout/activity_add_user.xml" value="0.3189397178281317" />
+        <entry key="app/src/main/res/layout/activity_admin_view_payments.xml" value="0.30739632321504917" />
         <entry key="app/src/main/res/layout/activity_admins.xml" value="0.3385772705078125" />
         <entry key="app/src/main/res/layout/activity_assign_exercise.xml" value="0.17870884993587002" />
         <entry key="app/src/main/res/layout/activity_assign_meal.xml" value="0.33" />
@@ -49,7 +50,7 @@
         <entry key="app/src/main/res/layout/fragment_payment.xml" value="0.33133817870884996" />
         <entry key="app/src/main/res/layout/fragment_traiers_users.xml" value="0.22120842603028096" />
         <entry key="app/src/main/res/layout/fragment_trainers_home.xml" value="0.33" />
-        <entry key="app/src/main/res/layout/fragment_trainers_profile.xml" value="0.170013427734375" />
+        <entry key="app/src/main/res/layout/fragment_trainers_profile.xml" value="0.33" />
         <entry key="app/src/main/res/layout/onboard_row_layout.xml" value="0.4277689615885417" />
         <entry key="app/src/main/res/layout/row_history.xml" value="0.3640609741210938" />
         <entry key="app/src/main/res/layout/row_physics.xml" value="0.33" />

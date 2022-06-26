@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.sephiroth74:AndroidUIGestureRecognizer:v1.2.7@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9a031bf73631b6aaf1111c63b26cccfc/transformed/jetified-AndroidUIGestureRecognizer-v1.2.7/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9a031bf73631b6aaf1111c63b26cccfc/transformed/jetified-AndroidUIGestureRecognizer-v1.2.7/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9a031bf73631b6aaf1111c63b26cccfc/transformed/jetified-AndroidUIGestureRecognizer-v1.2.7/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/79654ae7b5128365ea8861f71260f6e1/transformed/jetified-AndroidUIGestureRecognizer-v1.2.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/79654ae7b5128365ea8861f71260f6e1/transformed/jetified-AndroidUIGestureRecognizer-v1.2.7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/79654ae7b5128365ea8861f71260f6e1/transformed/jetified-AndroidUIGestureRecognizer-v1.2.7/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

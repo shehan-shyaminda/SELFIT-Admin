@@ -201,6 +201,7 @@ public class AddUserActivity extends AppCompatActivity {
         Map<String, Object> map = new HashMap<>();
         map.put("userAdminID", AdminID);
         map.put("userEmail", userEmail);
+        map.put("usersName", "");
         map.put("userPassword", password);
         map.put("userRegDate", new SimpleDateFormat("dd/MM/yyyy").format(new Date()));
         map.put("userTrainerID", TrainerID);
